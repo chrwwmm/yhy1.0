@@ -1,0 +1,51 @@
+table,td,th {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+table {
+	width: 80%;
+	margin: 0 auto;
+}
+
+td,th {
+	border: 1px solid #bcbcbc;
+	padding: 5px 10px;
+}
+
+th {
+	background: #307ecc;
+	font-size: 1.2rem;
+	font-weight: 400;
+	color: #fff;
+	cursor: pointer;	
+}
+
+tr:nth-of-type(odd) {
+	background: #fff
+}
+
+tr:nth-of-type(even) {
+	background: #eee
+}
+
+.btn{
+	border: none!important;
+}
+
+/*contact*/
+.contact-btn{}
+.contact-main{margin-top: 50px;}
+.contact-info{padding: 5px;text-align: center;}
+.contact-info h3{font-size: 22px;line-height: 34px;}
+.contact-info p{line-height: 28px;font-size: 14px;}
+.contact-wx{margin-top: 66px;text-align: center;}
+.contact-wx img{}
+.contact-wx span{display: block;line-height: 45px;font-size: 16px;}
+
+td.text-center input:nth-child(1){margin-right: 10px;}
+td.text-center input:nth-child(2){margin-left: 10px;}
+
+/*product*/
+.product-btn{}
+.product-table{margin-top: 50px;}

@@ -1,0 +1,135 @@
+body{font-family: "Source Han Sans",Helvetica,Tahoma,Arial,"Hiragino Sans GB","Microsoft YaHei",SimSun,Heiti,sans-serif!important}
+.clearfix:after { content:"."; display: block; height: 0; clear: both; visibility: hidden;}
+.clearfix {*+height:1%;}
+ul,ol{list-style: none;}
+
+/*header*/
+.header{
+	padding: 12px;
+}
+.header-main{
+	width: 100%;
+}
+.header-main a{
+}
+.header-main a img{
+	width: 135px;
+	height: 40px;
+	display: block;
+	float: left;
+}
+.header-main .line-nav{
+	float: right;
+	line-height: 40px;
+}
+.header-main .line-nav img{
+	width: 40px;
+	height: 30px;
+}
+.header-main .nav { width: 100%; position: absolute; top: 60px; right: 0; background: #fff; z-index: 9999;}
+.header-main .nav li{border-bottom: 1px solid #ccc;}
+/*banner*/
+.focus{ width: 100%; height: 255px;  margin:0 auto; position: relative; overflow: hidden; }
+.focus .hd{ width: 100%; height: 11px;  position: absolute; z-index: 1; bottom: 25px; text-align: center;  }
+.focus .hd ul{ display: inline-block; height: 11px; padding: 3px 5px; /* background-color: rgba(255,255,255,0.7); */ -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; font-size: 0; vertical-align: top;}
+.focus .hd ul li{ display: inline-block; width: 12px; height: 12px; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; background: #fff; margin: 0 5px;  vertical-align: top; overflow: hidden;   }
+.focus .hd ul .on{ background: #00a0e9;  }
+.focus .bd{ position:relative; z-index:0; }
+.focus .bd li img{ width:100%;  height:255px; background:url(../images/loading.gif) center center no-repeat; }
+
+/*内页banner*/
+.banner{width: 100%;height: 200px;}
+.banner img{width: 100%;height: 200px;}
+
+/*main*/
+.main-list{width: 100%; margin-top: 15px; padding: 10px;overflow: hidden;}
+.main-list .ml-item{margin-bottom: 30px;}
+.main-list .ml-item a:hover{text-decoration: none;}
+.main-list .ml-item a img{width: 100%;}
+.main-list .ml-item a h3{color: #000;}
+.main-list .ml-item a p{height: 60px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; color: #595757; font-size: 14px; line-height: 1.5;}
+
+/*footer*/
+.footer{padding: 12px; background: #000;}
+.footer-main{width: 100%;}
+.footer-main p{color: #ccc;text-align: center;}
+
+/*about*/
+/*about main*/
+.about-main{padding:0 25px;}
+.about-main p{
+	margin: 25px 0;
+    font-size: 14px;
+    line-height: 26px;
+    color: #35363a;
+    text-indent: 2em;
+}
+
+/*product*/
+/*about main*/
+.product-main{}
+.product-section {
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 55px;
+}
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/  
+.product-section::-webkit-scrollbar{height: .4rem;}  
+/*定义滚动条轨道 内阴影+圆角*/  
+.product-section::-webkit-scrollbar-track{-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);border-radius: 10px;background-color: #F5F5F5;}  
+/*定义滑块 内阴影+圆角*/  
+.product-section::-webkit-scrollbar-thumb{border-radius: 10px;-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);background-color: #555;}  
+
+.product-section .tablist{width: 410px; height: 55px;}
+.product-section .tablist li{height: 55px;}
+.product-section .tablist li a{height: 55px; line-height: 30px; padding: 10px 23px;}
+
+.product-main .tab-content{margin-top: 20px;}
+.product-list a{
+	display: block;
+    float: left;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.product-list a:nth-child(2n+1) {
+    border-right: 1px solid #ddd;
+}
+.product-list a img{width: 130px; height: 108px;}
+.product-list a p{
+	font-size: 14px;
+    color: #333;
+    margin-top: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    text-align: center;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+/*news*/
+.news-main{}
+.news-list{padding-left: 0;}
+.news-list li{padding: 15px; border-bottom: 1px solid #ccc;}
+.news-list li img{width: 35%; height: 100px;}
+.news-list li .nl-right{width: 65%;float: right; padding: 5px 0 5px 15px}
+.news-list li .nl-right .p-title{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.news-list li .nl-right .p-content{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+
+
+/*contact*/
+.contact-main{padding: 15px;}
+.contact-main .contact-wechat{text-align: center;margin-top: 30px;}
+.contact-main .contact-wechat p{margin-top: 15px;}
